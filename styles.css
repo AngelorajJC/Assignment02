@@ -103,4 +103,19 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        /*to change the application mobile responsive*/
+        .table-container{
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
 
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+        th, td{
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+        
